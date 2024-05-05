@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/white" /> <!-- 这里设置边框的背景颜色 -->
-    <corners android:radius="300dp" /> <!-- 设置圆角的半径 -->
+    <solid android:color="@color/white" /> <!-- 這裡設定邊框的背景顏色 -->
+    <corners android:radius="300dp" /> <!-- 設定圓角的半徑 -->
     <stroke
         android:width="0.5dp"
-        android:color="#000000" /> <!-- 边框的颜色 -->
+        android:color="#000000" /> <!-- 邊框的顏色 -->
 </shape>

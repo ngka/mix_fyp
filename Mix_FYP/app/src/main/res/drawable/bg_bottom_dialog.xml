@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- 圆角 -->
+    <!-- 圓角 -->
     <corners
         android:topLeftRadius="20dp"
         android:topRightRadius="20dp" />
     <!-- 填充色 -->
     <solid android:color="@color/white" />
-    <!--内边距-->
+    <!--內邊距-->
     <padding
         android:bottom="16dp"
         android:left="16dp"

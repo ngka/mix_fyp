@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/white" /> <!-- 这里设置边框的背景颜色 -->
+    <solid android:color="@color/white" /> <!-- 這裡設定邊框的背景顏色 -->
     <corners
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="10dp"
-        android:topRightRadius="10dp" /> <!-- 设置圆角的半径 -->
+        android:topRightRadius="10dp" /> <!-- 設定圓角的半徑 -->
 
 </shape>

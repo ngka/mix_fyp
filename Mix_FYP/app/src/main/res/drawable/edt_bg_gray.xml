@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FFF5F6F7" /> <!-- 这里设置边框的背景颜色 -->
-    <corners android:radius="10dp" /> <!-- 设置圆角的半径 -->
+    <solid android:color="#FFF5F6F7" /> <!-- 這裡設定邊框的背景顏色 -->
+    <corners android:radius="10dp" /> <!-- 設定圓角的半徑 -->
 
 </shape>

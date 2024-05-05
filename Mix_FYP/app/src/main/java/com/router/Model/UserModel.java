@@ -5,7 +5,7 @@ public class UserModel {
      * "id": 16,
      * "phone": "15710033734",
      * "mail": "2861166260@qq.com",
-     * "address": "武汉",
+     * "address": "武漢",
      * "createTime": "2024-04-02 20:33:28",
      * "loginTime": "2024-04-02 12:43:54",
      * "loginIp": "127.0.0.1",

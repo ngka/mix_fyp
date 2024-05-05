@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: 崩潰异常日誌處理。
+ * Description: 崩潰異常日誌處理。
  **/
 public class CrashHandler implements Thread.UncaughtExceptionHandler {
     private static final String TAG = CrashHandler.class.getSimpleName();
@@ -44,9 +44,9 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
     }
 
     /**
-     * 获得单例
+     * 獲得單例
      *
-     * @return 单例
+     * @return 單例
      */
     public static CrashHandler getInstance() {
         if (instance == null) {
@@ -62,19 +62,19 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
     public void init(Context context) {
         mContext = context.getApplicationContext();
         defalutHandler = Thread.getDefaultUncaughtExceptionHandler();
-        // 获取系统默认的UncaughtException处理器
+        // 取得系統預設的UncaughtException處理器
         Thread.setDefaultUncaughtExceptionHandler(this);
-        // 设置该CrashHandler为程序的默认处理器
+        // 設定該CrashHandler為程式的預設處理器
     }
 
 
     @Override
     public void uncaughtException(Thread thread, Throwable ex) {
         boolean hasHandle = handleException(ex);
-        //是否处理
+        //是否處理
         if (!hasHandle && defalutHandler != null) {
             defalutHandler.uncaughtException(thread, ex);
-            //如果用户没有处理则让系统默认的异常处理器来处理
+            //如果使用者沒有處理就讓系統預設的異常處理器來處理
         } else {
             try {
                 Thread.sleep(5000);
@@ -93,20 +93,20 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
         new Thread() {
             @Override
             public void run() {
-                ToastUtil.getInstance().showThread("應用异常，5秒鐘後退出", Toast.LENGTH_LONG);
+                ToastUtil.getInstance().showThread("應用異常，5秒後退出", Toast.LENGTH_LONG);
             }
         }.start();
-        // 收集设备参数信息,日志信息
-//        collectDeviceInfo(mContext);
+        // 收集設備參數資訊,日誌訊息
+// collectDeviceInfo(mContext);
         saveCrashInfoToFile(ex);
-        // 保存日志文件
+        // 保存日誌文件
         return true;
     }
 
     /**
-     * 保存出错信息
+     * 儲存出錯訊息
      *
-     * @param ex 待保存的出错信息
+     * @param ex 待保存的出錯訊息
      */
     private void saveCrashInfoToFile(Throwable ex) {
         Date date = new Date();
