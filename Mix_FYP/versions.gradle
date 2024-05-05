@@ -1,0 +1,27 @@
+def build_versions = [:]
+build_versions.VERSION_NAME = "1.0"    // App显示的版本号
+build_versions.versionCode = 1
+build_versions.compileSdkVersion = 34
+build_versions.minSdkVersion = 21
+build_versions.targetSdkVersion = 28 // 修改需考虑适配问题
+ext.build_versions = build_versions
+ext.deps = [:]
+
+//库引用集合
+def deps = [:]
+//android 系统库 support
+deps.fragment = "androidx.fragment:fragment:1.6.2"
+//rx
+deps.rxjava2 = "io.reactivex.rxjava2:rxjava:2.0.5"
+deps.rx_android = "io.reactivex.rxjava2:rxandroid:2.0.1"
+
+//other
+deps.gson = "com.google.code.gson:gson:2.8.1"//gson
+deps.fastjson = "com.alibaba:fastjson:1.2.9"//fastjson
+deps.glide = "com.github.bumptech.glide:glide:3.8.0"//glide
+deps.work = "android.arch.work:work-runtime:1.0.1"//WorkManager
+deps.phoenix_core = "com.github.guoxiaoxing:phoenix-core:1.0.2"//图片编辑
+deps.eventbus = "org.greenrobot:eventbus:3.3.1"
+
+ext.deps = deps
+

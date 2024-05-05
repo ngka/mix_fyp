@@ -1,16 +1,23 @@
+
+
 pluginManagement {
     repositories {
-        gradlePluginPortal()
+        jcenter()
         google()
+        maven { url "https://jitpack.io" }
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        jcenter()
         google()
+        maven { url "https://jitpack.io" }
         mavenCentral()
     }
 }
-rootProject.name = "Mix_FYP"
+
+rootProject.name = "Router-master"
 include ':app'

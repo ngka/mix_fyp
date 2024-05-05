@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.router.Widget.ChooseSquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="1dp">
+
+        <com.router.Widget.ChooseImageView
+            android:id="@+id/image_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:corner_radius="30" />
+
+        <ImageView
+            android:id="@+id/img_del"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:background="@mipmap/ic_del"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</com.router.Widget.ChooseSquareLayout>

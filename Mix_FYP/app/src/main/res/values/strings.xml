@@ -1,3 +1,162 @@
 <resources>
-    <string name="app_name">Mix_FYP</string>
+    <string name="app_name">Router-master</string>
+
+    <string name="common_loading_toast">正在加載…</string>
+
+    <string name="common_request_nonet_toast">當前網絡不可用</string>
+    <string name="common_confirm">確定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_email_hint">請輸入電子郵箱</string>
+    <string name="dialog_is_cancel">是否取消?</string>
+
+    <string name="login_title">歡迎登錄</string>
+    <string name="login_des">歡飲使用Router Order</string>
+    <string name="login_name_title">電郵</string>
+    <string name="login_name_hint">請輸入電郵</string>
+    <string name="login_pwd_title">密碼</string>
+    <string name="login_pwd_hint">請輸入密碼</string>
+    <string name="login_forget_pwd">忘記密碼？</string>
+    <string name="login_btn_in">登入</string>
+    <string name="login_btn_register">註冊</string>
+    <string name="login_loading_title">正在登入...</string>
+
+    <string name="register_back_login">已有賬號？立即登入</string>
+    <string name="register_title">建立新賬戶</string>
+    <string name="register_des">歡飲加入Router Order</string>
+    <string name="register_pwd2_title">確認密碼</string>
+    <string name="register_code_title">電話號碼</string>
+    <string name="register_code_hint">請輸入電話號碼</string>
+    <string name="register_address_title">地址</string>
+    <string name="register_address_hint">請輸入地址</string>
+    <string name="register_btn">確認註冊</string>
+    <string name="register_success">註冊成功</string>
+    <string name="register_bottom">我同意應用的條款和服務</string>
+    <string name="register_loading_title">正在註冊...</string>
+    <string name="register_phone_error">電話號碼格式錯誤</string>
+    <string name="register_email_error">電郵格式錯誤</string>
+    <string name="register_pwd_error">密碼錯誤</string>
+    <string name="register_pwd_error2">新密碼不相同</string>
+    <string name="register_agree">請同意政策!</string>
+
+    <string name="main_title">首頁</string>
+    <string name="main_title_right">個人中心</string>
+    <string name="main_item1_title">回報路由器問題</string>
+    <string name="main_item2_title">服務歷史記錄</string>
+    <string name="main_item3_title">聊天機器人</string>
+
+    <string name="mine_updata_mine">修改資料</string>
+    <string name="mine_item_1">顧客編號</string>
+    <string name="mine_item_2">電話號碼</string>
+    <string name="mine_item_3">電子郵件</string>
+    <string name="mine_item_4">信譽值</string>
+    <string name="mine_item_5">修改密碼</string>
+
+    <string name="update_info_name">姓名</string>
+    <string name="update_info_name_hint">請輸入姓名</string>
+    <string name="update_info_phone">電話號碼</string>
+    <string name="update_info_phone_hint">請輸入電話號碼</string>
+    <string name="update_info_email">電子郵箱</string>
+    <string name="update_info_email_hint">@string/common_email_hint</string>
+    <string name="update_info_btn">確認修改资料</string>
+    <string name="update_info_loading">正在修改...</string>
+    <string name="update_info_error">修改用户信息失败！</string>
+    <string name="update_info_success">修改用户信息成功！</string>
+
+    <string name="xinyu_title">信譽值</string>
+    <string name="xinyu_des">我的信譽值</string>
+    <string name="xinyu_item_1">日期</string>
+    <string name="xinyu_item_2">原因</string>
+    <string name="xinyu_item_3">加/扣分</string>
+
+    <string name="common_title">回報路由器問題</string>
+    <string name="common_khxm">客户姓名</string>
+    <string name="common_dhhm">電話號碼</string>
+    <string name="common_dzyj">電子郵件</string>
+    <string name="common_address">地址</string>
+    <string name="common_order">訂單</string>
+    <string name="common_lyxh">路由器型號</string>
+    <string name="common_time">購買或安裝日期</string>
+    <string name="common_edt_hint">請輸入</string>
+    <string name="common_btn_next">下一頁</string>
+    <string name="common_btn_last">上一頁</string>
+    <string name="common_btn">提交</string>
+    <string name="common_download_speed">下載速度</string>
+    <string name="common_upload_speed">上傳速度</string>
+    <string name="common_xhzq">訊號最強</string>
+    <string name="common_kywlsl">可用網路數量</string>
+    <string name="common_sbsl">設備數量</string>
+    <string name="common_no_net">无法连接到网络</string>
+    <string name="common_ip_error">IP地址衝突</string>
+    <string name="common_dns_no">DNS服務器未回應</string>
+    <string name="common_line_error">連線已中斷或變得無法使用</string>
+    <string name="common_net_error">網絡變得無法使用</string>
+    <string name="common_no_error">**沒有任何顯示**</string>
+
+    <string name="update_pwd_title">更改密碼</string>
+    <string name="update_pwd_old_pwd">當前密碼</string>
+    <string name="update_pwd_old_pwd_hint">請輸入密碼</string>
+    <string name="update_pwd_new_pwd">新密碼</string>
+    <string name="update_pwd_new_pwd_hint">請輸入新密碼</string>
+    <string name="update_pwd_new_pwd2">確認新密碼</string>
+    <string name="update_pwd_new_pwd2_hint">請輸入新密碼</string>
+    <string name="update_pwd_btn">確認修改密碼</string>
+    <string name="update_pwd_success">修改用戶密碼成功！</string>
+    <string name="update_pwd_error">修改用户密码失败！</string>
+
+    <string name="analysis_title">分析結果</string>
+    <string name="btn_common">登記</string>
+    <string name="btn_cancle">取消</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_appeal">上訴</string>
+
+    <string name="cancel_reservation_title">取消預約</string>
+    <string name="cancel_reservation_item_1">沒有時間空間</string>
+    <string name="cancel_reservation_item_2">工作關係</string>
+    <string name="cancel_reservation_item_3">已解決相關問題</string>
+    <string name="cancel_reservation_item_4">其他（請說明）</string>
+    <string name="cancel_reservation_edt_hint">請輸入電子郵件</string>
+    <string name="cancel_reservation_btn">確認取消預約</string>
+
+    <string name="reservation_info_title">訂單詳情</string>
+    <string name="reservation_info_info">基本信息</string>
+    <string name="reservation_info_type_ok">已完成</string>
+    <string name="reservation_info_code">申請編號</string>
+    <string name="reservation_info_time">申請日期</string>
+    <string name="reservation_info_address">地址</string>
+    <string name="reservation_info_xh">路由器型號</string>
+    <string name="reservation_info_title2">問題描述</string>
+    <string name="reservation_info_zywt">主要問題</string>
+    <string name="reservation_info_dowload_speed">下載速度</string>
+    <string name="reservation_info_upload_speed">上傳速度</string>
+    <string name="reservation_info_xhzq">訊號最強</string>
+    <string name="reservation_info_kywlsl">可用網路數量</string>
+    <string name="reservation_info_sbsl">設備數量</string>
+    <string name="reservation_info_title3">維修信息</string>
+    <string name="reservation_info_lxfs">解決方式</string>
+    <string name="reservation_info_yysj">預約時間</string>
+    <string name="reservation_info_wcsj">完成時間</string>
+
+    <string name="reservation_list_item_time">申請日期</string>
+    <string name="reservation_list_item_msg">主要問題</string>
+    <string name="reservation_list_item_state">狀態</string>
+    <string name="reservation_list_item_feedback">反饋</string>
+    <string name="reservation_list_item_update_time">修改預約時間</string>
+
+    <string name="expand_text">展開</string>
+    <string name="collapse_text">收起</string>
+
+    <string name="reservation_clear">清空</string>
+    <string name="reservation_title">預約上門</string>
+    <string name="reservation_update_title">修改預約時間</string>
+
+    <string name="feedbook_title">反饋</string>
+
+    <string name="robot_title">聊天機器人</string>
+    <string name="robot_btn_send">發送</string>
+    <string name="robot_edt_hint">盡可能詳細的描述您的問題</string>
+
+    <string-array name="welcome">
+        <item>請問有什麼想諮詢的嗎？</item>
+    </string-array>
+
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandTextIndicator" format="reference" />
+        <attr name="collapseTextIndicator" format="reference" />
+        <attr name="expandImageIndicator" format="reference" />
+        <attr name="collapseImageIndicator" format="reference" />
+        <attr name="expandToggleType" format="enum">
+            <enum name="ImageButton" value="0" />
+            <enum name="TextView" value="1" />
+            <enum name="All" value="2" />
+        </attr>
+        <attr name="expandableTextId" format="reference" />
+        <attr name="expandCollapseToggleId" format="reference" />
+        <attr name="expandToggleOnTextClick" format="boolean" />
+    </declare-styleable>
+</resources>
